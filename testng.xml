@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Login CRM Test Suite" verbose="2" parallel="classes" thread-count="1">
+	
+	<listeners>
+		<listener class-name="com.crm.automation.testng.listeners.Listeners" />
+		<listener class-name="com.crm.automation.util.ExtentReporterNG" />
+	</listeners>
+
+	<!-- Test Cases for Login Module -->
+	<test name="Login Module -- LoginTest">
+		<classes>
+			<class name="com.crm.automation.testng.listeners.modules.login.LoginTest"/>
+		</classes>
+	</test>
+	
+	<test name="Login Module -- RegisterTest">
+		<classes>
+			<class name="com.crm.automation.testng.listeners.modules.login.RegisterTest"/>
+		</classes>
+	</test>
+	
+	<test name="Login Module -- RegisterSuccessTest">
+		<classes>
+			<class name="com.crm.automation.testng.listeners.modules.login.RegisterSuccessTest"/>
+		</classes>
+	</test>
+	
+	<!-- Test Cases for Customer Module -->
+	<test name="Customer Module -- CustomerHomeTest">
+		<classes>
+			<class name="com.crm.automation.testng.listeners.modules.crm.CustomerHomeTest"/>
+		</classes>
+	</test>
+	
+	<test name="Customer Module -- AddCustomerTest">
+		<classes>
+			<class name="com.crm.automation.testng.listeners.modules.crm.AddCustomerTest"/>
+		</classes>
+	</test>
+	  
+</suite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login CRM Test Suite" duration-ms="4549" started-at="2020-11-09T03:09:20 PST" finished-at="2020-11-09T03:09:24 PST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.automation.cucumber.runners.TestRunner@2db7a79b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Cucumber Tests" duration-ms="4549" started-at="2020-11-09T03:09:20 PST" finished-at="2020-11-09T03:09:24 PST">
+      <class name="com.crm.automation.cucumber.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.crm.automation.cucumber.runners.TestRunner@2db7a79b]" name="setUpClass" is-config="true" duration-ms="1550" started-at="2020-11-09T03:09:20 PST" finished-at="2020-11-09T03:09:21 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.crm.automation.cucumber.runners.TestRunner@2db7a79b]" name="feature" duration-ms="2336" started-at="2020-11-09T03:09:22 PST" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-11-09T03:09:24 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login into Application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.crm.automation.cucumber.runners.TestRunner@2db7a79b]" name="tearDownClass" is-config="true" duration-ms="8" started-at="2020-11-09T03:09:24 PST" finished-at="2020-11-09T03:09:24 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.crm.automation.cucumber.runners.TestRunner -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- Login CRM Test Suite -->
+</testng-results>
